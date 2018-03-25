@@ -65,12 +65,11 @@ class ItemCard extends Component {
 
 class App extends Component {
   state: {
-  	itemsLoaded: false,
   	items: [],
   }
   componentWillMount() {
-    const { itemsLoaded } = this.state || {}
-    if (!!itemsLoaded) {
+    const { items = [] } = this.state || {}
+    if (items.length > 0) {
       return
     }
     fetch(_URL, {
@@ -87,7 +86,7 @@ class App extends Component {
     ).then(
       data => {
         // console.log('ajax success:', data)
-        this.setState({items: data, itemsLoaded: true})
+        this.setState({items: data})
       },
       error => catchError(error.message || 'Something went wrong')
     )
