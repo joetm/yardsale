@@ -2,7 +2,7 @@ body {
   background-color: #303030;
   color: #FAFAFA;
   cursor: default;
-  background-image:url(/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg);
+  background-image:url(img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
   animation: Loader-logo-spin infinite 5s linear;
   height: 120px;
   width: 120px;
-  background-image: url(/img/slds_spinner_brand.gif);
+  background-image: url(img/slds_spinner_brand.gif);
   background-position: 50% 50%;
   background-size:cover;
 }
