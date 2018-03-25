@@ -1,13 +1,23 @@
 [
   {
-    "title": "Fridge, Santo",
+    "title": "Fridge, AEG SANTO S72300DSX1",
     "description": "I am very satisfied with this fridge and I would buy the exact same model again. The freezing compartment is quite big. There practically no ice building up in the freezer at all. That means it is well-sealed and insulated.",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "305.48",
+    "url": "https://www.amazon.de/gp/product/B009F0JFD4/",
     "status": "As good as new from Amazon."
+  },
+  {
+    "title": "2x Regalux Steckregale",
+    "description": "The shelves have always been only lightly loaded with empty boxes.",
+    "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
+    "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
+    "asking_price": null,
+    "purchase_price": "36.50",
+    "url": "https://www.bauhaus.info/steckregale/regalux-steckregal/p/10573032",
+    "status": "good"
   },
   {
     "title": "Gravity weighted blanket, 25 lbs (12 kg) [Kickstarter]",
@@ -15,7 +25,17 @@
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
+    "purchase_price": "199 USD + over 50 EUR import taxes",
+    "url": "https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and",
+    "status": "Used twice"
+  },
+  {
+    "title": "Deskview - Window-Mounted Standing Desk [Kickstarter]",
+    "description": "",
+    "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
+    "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
+    "asking_price": null,
+    "purchase_price": "220 USD + over 50 EUR import taxes",
     "url": "https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and",
     "status": "Used twice"
   },
@@ -60,33 +80,33 @@
     "status": "Only tried it out once. Always stored in a warm and dry place."
   },
   {
-    "title": "Stone mortar",
+    "title": "Savisto Premium Solid Granite Pestle And Mortar - Large 15.5cm Diameter",
     "description": "Great for pestling and producing salad dressings.",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "asking_price": "5.00",
+    "purchase_price": "21.95",
+    "url": "https://www.amazon.de/gp/product/B00QAP6BMA/",
     "status": "Used only once."
   },
   {
-    "title": "Podo camera [Kickstarter]",
+    "title": "Podo Stick and Shoot camera [Kickstarter]",
     "description": "My cellphone is so old, I unfortunately cannot use this device.",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "56 USD",
+    "url": "https://www.kickstarter.com/projects/podolabs/podo-the-first-stick-and-shoot-camera-the-sequel",
     "status": "Never used"
   },
   {
-    "title": "Passport wallet [Kickstarter]",
+    "title": "NOTY 2.0 Travel wallet [Kickstarter]",
     "description": "Test",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "36 AUD",
+    "url": "https://www.kickstarter.com/projects/848557630/noty20-unique-canvas-slim-passport-travel-wallet",
     "status": ""
   },
   {
@@ -130,13 +150,13 @@
     "status": "Never used"
   },
   {
-    "title": "Keyholder bracelet [Kickstarter]",
+    "title": "PocketBands - The Wristband With a Hidden Pocket [Kickstarter]",
     "description": "Test",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "15 USD",
+    "url": "https://www.kickstarter.com/projects/pocketbands/pocketbandstm-the-wristband-with-a-hidden-pocket",
     "status": ""
   },
   {
@@ -170,13 +190,13 @@
     "status": "Never used"
   },
   {
-    "title": "Bixi touch gesture device [Kickstarter]",
+    "title": "Bixi gesture control device [Kickstarter]",
     "description": "It is unfortunately not compatible to Linux (as far as I know) or my ancient cellphone.",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "84 USD",
+    "url": "https://www.kickstarter.com/projects/1860920533/bixi-control-any-smart-device-by-simply-waving-you",
     "status": ""
   },
   {
@@ -190,13 +210,13 @@
     "status": "As good as new"
   },
   {
-    "title": "Bordo wallet [Kickstarter]",
+    "title": "Bordo wallet - Small Leather Wallet with RFID Protection [Kickstarter]",
     "description": "Test",
     "image": "img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "thumb": "img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
     "asking_price": null,
-    "purchase_price": null,
-    "url": null,
+    "purchase_price": "40 USD",
+    "url": "https://www.kickstarter.com/projects/andrewskop/bordo-mini-small-leather-wallet-with-rfid-protecti",
     "status": "Never used"
   },
   {
