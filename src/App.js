@@ -4,9 +4,9 @@ import Loader from './Loader'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
-const _URL = "/items.json"
+const _URL = "https://joetm.github.io/yardsale/items.json"
 
-const catchError = (msg) => { console.log(msg) }
+const catchError = (msg) => { console.error(msg) }
 
 
 class ItemCard extends Component {
@@ -82,7 +82,7 @@ class App extends Component {
         if (response.status === 200) {
           return response.json()
         }
-        throw new Error(`Something went wrong: [${response.status}] ${response.statusText}`)
+        throw new Error(`==> Something went wrong: [${response.status}] ${response.statusText}`)
       }
     ).then(
       data => {
