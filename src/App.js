@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { Card, Icon, Grid, Container, Image, Label } from 'semantic-ui-react'
+import { Card, Grid, Container, Image, Label } from 'semantic-ui-react'
+import Loader from './Loader'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
-const _URL = "/static/items.json"
+const _URL = "/items.json"
 
 const catchError = (msg) => { console.log(msg) }
 
@@ -17,7 +18,7 @@ class ItemCard extends Component {
     this.setState({detailsVisible: !this.state.detailsVisible})
   }
   componentDidMount = () => {
-    console.log(this.refs.mainCard)
+    // console.log(this.refs.mainCard)
     this.setState({height: this.cardElement.clientHeight})
   }
   render = () => {
@@ -67,8 +68,9 @@ class App extends Component {
   	itemsLoaded: false,
   	items: [],
   }
-  loadData = () => {
-    if (this.itemsLoaded) {
+  componentWillMount() {
+    const { itemsLoaded } = this.state || {}
+    if (!!itemsLoaded) {
       return
     }
     fetch(_URL, {
@@ -77,22 +79,21 @@ class App extends Component {
     })
     .then(
       response => {
-        console.log('response', response)
         if (response.status === 200) {
           return response.json()
         }
         throw new Error(`Something went wrong: [${response.status}] ${response.statusText}`)
       }
     ).then(
-      data => {this.setState({items: data})},
+      data => {
+        // console.log('ajax success:', data)
+        this.setState({items: data, itemsLoaded: true})
+      },
       error => catchError(error.message || 'Something went wrong')
     )
   }
-  componentWillMount() {
-  	this.loadData();
-  }
   render() {
-    const { items = [] } = this.state
+    const { items = [] } = this.state || {}
     return (
       <div className="App">
 
@@ -104,15 +105,17 @@ class App extends Component {
 
         <Container className="App-intro">
             The following items are for sale.
-            All items are in great condition or as good as new.
+            All items are in great condition and as good as new.
             Please contact me if you are interested.
         </Container>
+
+        <Loader hidden={items && items.length} />
 
         <Grid container={true} columns={2} stackable divided>
           <Grid.Row className="row">
           {
-            items.map(item => (
-              <Grid.Column className="col">
+            items.map((item, index) => (
+              <Grid.Column className="col" key={`item_${index}`}>
                   <ItemCard item={item} />
               </Grid.Column>
             ))

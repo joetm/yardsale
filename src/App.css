@@ -12,14 +12,22 @@ body {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Loader {}
+.Loader-logo {
+  margin: 0 auto;
+  opacity: 0.5;
+  animation: Loader-logo-spin infinite 5s linear;
+  height: 120px;
+  width: 120px;
+  background-image: url(/img/slds_spinner_brand.gif);
+  background-position: 50% 50%;
+  background-size:cover;
 }
-@keyframes App-logo-spin {
+@keyframes Loader-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
 
 .App-header {
   background-color: #222;
