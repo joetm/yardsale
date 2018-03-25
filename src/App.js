@@ -3,43 +3,9 @@ import { Card, Icon, Grid, Container, Image, Label } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
-const mockData = [
-  {
-    title: "2 x Stativ including bags and accessoires",
-    description: "Test",
-    image: "/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    thumb: "/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    url: "#",
-  },
-  {
-    title: "2 x Stativ including bags and accessoires",
-    description: "Test",
-    image: "/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    thumb: "/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    url: "#",
-  },
-  {
-    title: "2 x Stativ including bags and accessoires",
-    description: "Test",
-    image: "/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    thumb: "/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    url: "#",
-  },
-  {
-    title: "2 x Stativ including bags and accessoires",
-    description: "Test",
-    image: "/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    thumb: "/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    url: "#",
-  },
-  {
-    title: "2 x Stativ including bags and accessoires",
-    description: "Test",
-    image: "/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    thumb: "/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    url: "#",
-  },
-]
+const _URL = "/static/items.json"
+
+const catchError = (msg) => { console.log(msg) }
 
 
 class ItemCard extends Component {
@@ -105,16 +71,28 @@ class App extends Component {
     if (this.itemsLoaded) {
       return
     }
-    this.setState({items: mockData});
-  }
-  renderData = () => {
+    fetch(_URL, {
+      // method: 'GET',
+      // headers: JSON_HEADER,
+    })
+    .then(
+      response => {
+        console.log('response', response)
+        if (response.status === 200) {
+          return response.json()
+        }
+        throw new Error(`Something went wrong: [${response.status}] ${response.statusText}`)
+      }
+    ).then(
+      data => {this.setState({items: data})},
+      error => catchError(error.message || 'Something went wrong')
+    )
   }
   componentWillMount() {
   	this.loadData();
-  	this.renderData();
   }
   render() {
-    const { items } = this.state
+    const { items = [] } = this.state
     return (
       <div className="App">
 
