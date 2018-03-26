@@ -2,6 +2,14 @@ import React, { Component } from 'react'
 import { Card, Image, Label, Reveal } from 'semantic-ui-react'
 
 
+const styles = {
+  extrapadding: {
+    paddingTop: '1em',
+    paddingBottom: '1em',
+  },
+}
+
+
 class ItemCard extends Component {
   state = {
     // detailsVisible: false,
@@ -57,12 +65,12 @@ class ItemCard extends Component {
         </Card.Meta>
         {
           item.url ? (
-            <Card.Meta>
+            <Card.Meta style={styles.extrapadding}>
               URL: <a href={item.url} target="_blank" style={{color: 'gray'}}>{item.url}</a>
             </Card.Meta>
             ) : null
         }
-        <Card.Meta>
+        <Card.Meta style={styles.extrapadding}>
           Condition: <span style={{color: 'gray'}}>{item.condition}</span>
         </Card.Meta>
       </Card.Content>
