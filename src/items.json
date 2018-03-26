@@ -110,26 +110,6 @@
     "condition": ""
   },
   {
-    "title": "Wireless telephone",
-    "description": "",
-    "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    "asking_price": "TBD",
-    "purchase_price": "?",
-    "url": null,
-    "condition": "Collected some dust. Otherwise okay."
-  },
-  {
-    "title": "Wired telephone",
-    "description": "Test",
-    "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg",
-    "asking_price": "2 EUR",
-    "purchase_price": "?",
-    "url": null,
-    "condition": "Collected some dust. Otherwise okay."
-  },
-  {
     "title": "Ilily flat cap",
     "description": "n/a",
     "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/2018-03-25%2021.17.16.jpg",
@@ -164,10 +144,10 @@
     "description": "You can slip a key in this wristband, for example when you go jogging. Also can be used to hide some money.",
     "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/2018-03-25%2021.13.43.jpg",
     "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/2018-03-25%2021.13.43.jpg",
-    "asking_price": "2 EUR",
+    "asking_price": "1.5 EUR",
     "purchase_price": "15 USD",
     "url": "https://www.kickstarter.com/projects/pocketbands/pocketbandstm-the-wristband-with-a-hidden-pocket",
-    "condition": ""
+    "condition": "Used"
   },
   {
     "title": "Jack Wolfskin Waschsalon Kulturbeutel",

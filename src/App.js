@@ -49,12 +49,14 @@ class App extends Component {
         <header className="App-header"></header>
         <header className="App-headerOverlay">
           <h1 className="App-title">Yardsale</h1>
-            <Label as='a' color='blue'>Alles muss raus!</Label>
+            <Label as='a' color='blue' style={{cursor: 'default'}}>Alles muss raus!</Label>
         </header>
 
         <Container className="App-intro">
             The following items are for sale.
+            {/*
             All items are in great condition and as good as new.
+            */}
             Please contact me if you are interested.
         </Container>
 

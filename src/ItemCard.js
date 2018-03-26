@@ -53,10 +53,10 @@ class ItemCard extends Component {
         <Card.Meta>
           <div className='date' style={styles.extrapadding}>
             <div style={{float: 'left'}}>
-              Purchase price: <span style={{color: 'red'}}>{item.purchase_price === '?' ? '? EUR' : item.purchase_price}</span>
+              Purchase price: <span style={{color: 'green'}}>{item.purchase_price === '?' ? '? EUR' : item.purchase_price}</span>
             </div>
             <div style={{float: 'right'}}>
-              Asking price: <span style={{color: 'green'}}>{item.asking_price}</span>
+              Asking price: <span style={{color: 'red'}}>{item.asking_price}</span>
             </div>
           </div>
         </Card.Meta>
