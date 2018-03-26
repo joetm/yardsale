@@ -4,8 +4,8 @@ import { Card, Image, Label, Reveal } from 'semantic-ui-react'
 
 const styles = {
   extrapadding: {
-    paddingTop: '1em',
-    paddingBottom: '1em',
+    paddingTop: '0.5em',
+    paddingBottom: '0.5em',
   },
 }
 
@@ -65,13 +65,17 @@ class ItemCard extends Component {
         </Card.Meta>
         {
           item.url ? (
-            <Card.Meta style={styles.extrapadding}>
+            <Card.Meta>
+            <div style={styles.extrapadding}>
               URL: <a href={item.url} target="_blank" style={{color: 'gray'}}>{item.url}</a>
+            </div>
             </Card.Meta>
             ) : null
         }
-        <Card.Meta style={styles.extrapadding}>
-          Condition: <span style={{color: 'gray'}}>{item.condition}</span>
+        <Card.Meta>
+          <div style={styles.extrapadding}>
+            Condition: <span style={{color: 'gray'}}>{item.condition}</span>
+          </div>
         </Card.Meta>
       </Card.Content>
     </Card>
