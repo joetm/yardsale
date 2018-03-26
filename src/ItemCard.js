@@ -72,11 +72,15 @@ class ItemCard extends Component {
             </Card.Meta>
             ) : null
         }
-        <Card.Meta>
-          <div style={styles.extrapadding}>
-            Condition: <span style={{color: 'gray'}}>{item.condition}</span>
-          </div>
-        </Card.Meta>
+        {
+          item.condition && (
+            <Card.Meta>
+              <div style={styles.extrapadding}>
+                Condition: <span style={{color: 'gray'}}>{item.condition}</span>
+              </div>
+            </Card.Meta>
+          )
+        }
       </Card.Content>
     </Card>
     )
