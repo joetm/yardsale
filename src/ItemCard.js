@@ -27,26 +27,23 @@ class ItemCard extends Component {
     // console.log('item', item)
     return (
     <Card centered={true} ref={cardElement => this.cardElement = cardElement} fluid={true} raised={false}>
-      <Reveal animated='move'>
-        <Reveal.Content visible
-          style={{
-              height: '250px',
-              width: '100%',
-        }}>
-          <Image
-            style={{
-              height: '250px',
-              width: '100%',
-              backgroundImage: `url(${item.thumb})`,
-              backgroundSize: 'cover',
-              backgroundPosition: '50% 50%',
-            }}
-           />
+      <Reveal animated='move'
+       style={{
+                height: '250px',
+                width: '100%',
+             }}
+      >
+        <Reveal.Content visible style={{width:'100%'}}>
+          <Image style={{
+                height: '100%',
+                width: '100%',
+                backgroundImage: `url(${item.thumb})`,
+                backgroundSize: 'cover',
+                backgroundPosition: '50% 50%',
+          }} />
         </Reveal.Content>
-        <Reveal.Content hidden>
-	        <Card.Description>
-	            {item.description}
-	        </Card.Description>
+        <Reveal.Content hidden style={{fontSize: '1.2em', padding: '1em', color: 'black', width: '100%'}}>
+          {item.description}
         </Reveal.Content>
       </Reveal>
       <Card.Content>
@@ -54,19 +51,19 @@ class ItemCard extends Component {
           {item.title}
         </Card.Header>
         <Card.Meta>
-          <span className='date'>
+          <div className='date' style={styles.extrapadding}>
             <div style={{float: 'left'}}>
               Purchase price: <span style={{color: 'red'}}>{item.purchase_price === '?' ? '? EUR' : item.purchase_price}</span>
             </div>
             <div style={{float: 'right'}}>
               Asking price: <span style={{color: 'green'}}>{item.asking_price}</span>
             </div>
-          </span>
+          </div>
         </Card.Meta>
         {
           item.url ? (
             <Card.Meta>
-            <div style={styles.extrapadding}>
+            <div style={{...styles.extrapadding, paddingTop: '1.5em'}}>
               URL: <a href={item.url} target="_blank" style={{color: 'gray'}}>{item.url}</a>
             </div>
             </Card.Meta>
@@ -75,7 +72,7 @@ class ItemCard extends Component {
         {
           item.condition && (
             <Card.Meta>
-              <div style={styles.extrapadding}>
+              <div style={{...styles.extrapadding, paddingTop: '0em', paddingBottom: '0em'}}>
                 Condition: <span style={{color: 'gray'}}>{item.condition}</span>
               </div>
             </Card.Meta>
