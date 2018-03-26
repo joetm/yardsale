@@ -4,10 +4,10 @@
     "description": "I am very satisfied with this fridge and I would buy the exact same model again. The freezing compartment is quite big. There practically no ice building up in the freezer at all. That means it is well-sealed and insulated.",
     "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/flickr_juhoholmi_21002339685_dd23452e80_k.jpg?raw=true",
     "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/flickr_juhoholmi_21002339685_dd23452e80_k.jpg?raw=true",
-    "asking_price": "200 EUR",
+    "asking_price": "200 EUR VHB",
     "purchase_price": "305.48 EUR",
     "url": "https://www.amazon.de/gp/product/B009F0JFD4/",
-    "status": "As good as new from Amazon."
+    "condition": "As good as new from Amazon."
   },
   {
     "title": "Two Regalux Steckregale",
@@ -17,7 +17,7 @@
     "asking_price": "8 EUR each",
     "purchase_price": "36.50 EUR each",
     "url": "https://www.bauhaus.info/steckregale/regalux-steckregal/p/10573032",
-    "status": "good"
+    "condition": "good"
   },
   {
     "title": "Gravity weighted blanket, 25 lbs (12 kg) [Kickstarter]",
@@ -27,7 +27,7 @@
     "asking_price": "50 EUR",
     "purchase_price": "199 USD + over 50 EUR import taxes",
     "url": "https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and",
-    "status": "Used twice"
+    "condition": "Used twice"
   },
   {
     "title": "Deskview - Window-Mounted Standing Desk [Kickstarter]",
@@ -37,7 +37,7 @@
     "asking_price": "100 EUR",
     "purchase_price": "220 USD + over 50 EUR import taxes",
     "url": "https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and",
-    "status": "Used twice"
+    "condition": "Used twice"
   },
   {
     "title": "Two Wallimex tripods including bags and accessoires",
@@ -47,7 +47,7 @@
     "asking_price": "20 EUR each",
     "purchase_price": "?",
     "url": null,
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Small tripod including bag",
@@ -57,7 +57,7 @@
     "asking_price": "5 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Two foto studio umbrellas, white",
@@ -67,7 +67,7 @@
     "asking_price": "2 EUR each",
     "purchase_price": "?",
     "url": null,
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Swiss army water bladder, rubber, 20 litres",
@@ -77,7 +77,7 @@
     "asking_price": "5 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "Only tried it out once. Always stored in a warm and dry place."
+    "condition": "Only tried it out once. Always stored in a warm and dry place."
   },
   {
     "title": "Savisto Premium Solid Granite Pestle And Mortar - Large 15.5cm Diameter",
@@ -87,7 +87,7 @@
     "asking_price": "5.00 EUR",
     "purchase_price": "21.95 EUR",
     "url": "https://www.amazon.de/gp/product/B00QAP6BMA/",
-    "status": "Used only once."
+    "condition": "Used only once."
   },
   {
     "title": "Podo Stick and Shoot camera [Kickstarter]",
@@ -97,7 +97,7 @@
     "asking_price": "10 EUR",
     "purchase_price": "56 USD",
     "url": "https://www.kickstarter.com/projects/podolabs/podo-the-first-stick-and-shoot-camera-the-sequel",
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "NOTY 2.0 Travel wallet [Kickstarter]",
@@ -107,7 +107,7 @@
     "asking_price": "10 EUR",
     "purchase_price": "36 AUD",
     "url": "https://www.kickstarter.com/projects/848557630/noty20-unique-canvas-slim-passport-travel-wallet",
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Wireless telephone",
@@ -117,7 +117,7 @@
     "asking_price": "TBD",
     "purchase_price": "?",
     "url": null,
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Wired telephone",
@@ -127,7 +127,7 @@
     "asking_price": "2 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Ilily flat cap",
@@ -137,7 +137,7 @@
     "asking_price": "8 EUR",
     "purchase_price": "~30 GBP",
     "url": null,
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "Stetson flat cap",
@@ -147,7 +147,7 @@
     "asking_price": "8 EUR",
     "purchase_price": "~30 GBP",
     "url": null,
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "2 x Joker Jeans, 33x32",
@@ -157,7 +157,7 @@
     "asking_price": "TBD",
     "purchase_price": "?",
     "url": null,
-    "status": "Used"
+    "condition": "Used"
   },
   {
     "title": "PocketBands - The Wristband With a Hidden Pocket [Kickstarter]",
@@ -167,7 +167,7 @@
     "asking_price": "2 EUR",
     "purchase_price": "15 USD",
     "url": "https://www.kickstarter.com/projects/pocketbands/pocketbandstm-the-wristband-with-a-hidden-pocket",
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Jack Wolfskin Waschsalon Kulturbeutel",
@@ -177,7 +177,7 @@
     "asking_price": "4 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "Used"
+    "condition": "Used"
   },
   {
     "title": "Amazon Basics case",
@@ -187,7 +187,7 @@
     "asking_price": "2 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "As good as new"
+    "condition": "As good as new"
   },
   {
     "title": "Square liner (Hüttenschlafsack)",
@@ -197,7 +197,7 @@
     "asking_price": "2.50 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "Bixi gesture control device [Kickstarter]",
@@ -207,7 +207,7 @@
     "asking_price": "25 EUR",
     "purchase_price": "84 USD",
     "url": "https://www.kickstarter.com/projects/1860920533/bixi-control-any-smart-device-by-simply-waving-you",
-    "status": ""
+    "condition": ""
   },
   {
     "title": "Antlion stick-on microphone",
@@ -217,7 +217,7 @@
     "asking_price": "9 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "As good as new"
+    "condition": "As good as new"
   },
   {
     "title": "Bordo wallet - Small Leather Wallet with RFID Protection [Kickstarter]",
@@ -227,7 +227,7 @@
     "asking_price": "10 EUR",
     "purchase_price": "40 USD",
     "url": "https://www.kickstarter.com/projects/andrewskop/bordo-mini-small-leather-wallet-with-rfid-protecti",
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "Camera grip for DSLR cameras",
@@ -237,7 +237,7 @@
     "asking_price": "TBD",
     "purchase_price": "?",
     "url": null,
-    "status": "Used"
+    "condition": "Used"
   },
   {
     "title": "Light handshoes",
@@ -247,7 +247,7 @@
     "asking_price": "2 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "Never used"
+    "condition": "Never used"
   },
   {
     "title": "LG Monitor",
@@ -257,7 +257,7 @@
     "asking_price": "5 EUR",
     "purchase_price": "?",
     "url": null,
-    "status": "A bit dusty, but otherwise okay"
+    "condition": "A bit dusty, but otherwise okay"
   }
 
 ]
