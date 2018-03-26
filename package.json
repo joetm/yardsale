@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy_BAK": "gh-pages -d build",
+    "deploy": "yarn build && git add -A && git commit -m 'update items' && git push && ./push.sh",
     "push": "./push.sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
