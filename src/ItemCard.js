@@ -55,8 +55,15 @@ class ItemCard extends Component {
             </div>
           </span>
         </Card.Meta>
+        {
+          item.url ? (
+            <Card.Meta>
+              URL: <a href={item.url} target="_blank" style={{color: 'gray'}}>{item.url}</a>
+            </Card.Meta>
+            ) : null
+        }
         <Card.Meta>
-        	Condition: <span style={{color: 'gray'}}>{item.condition}</span>
+          Condition: <span style={{color: 'gray'}}>{item.condition}</span>
         </Card.Meta>
       </Card.Content>
     </Card>
