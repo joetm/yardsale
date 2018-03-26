@@ -3,64 +3,13 @@ import { Card, Grid, Container, Image, Label } from 'semantic-ui-react'
 import Loader from './Loader'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
+import JSON from './items.json'
+import ItemCard from './ItemCard'
 
-const _URL = "https://joetm.github.io/yardsale/items.json"
+// const _URL = "https://joetm.github.io/yardsale/items.json"
+// const catchError = (msg) => { console.error(msg) }
 
-const catchError = (msg) => { console.error(msg) }
 
-
-class ItemCard extends Component {
-  state = {
-    detailsVisible: false,
-    height: 0,
-  }
-  switchState = () => {
-    this.setState({detailsVisible: !this.state.detailsVisible})
-  }
-  componentDidMount = () => {
-    // console.log(this.refs.mainCard)
-    this.setState({height: this.cardElement.clientHeight})
-  }
-  render = () => {
-    const { item } = this.props
-    const { detailsVisible } = this.state
-    // console.log('item', item)
-    return (
-    <Card centered={true} ref={cardElement => this.cardElement = cardElement} fluid={true} raised={false}
-    onClick={this.switchState}>
-      <Image
-        style={{
-          height: '250px',
-          width: '100%',
-          display: !detailsVisible ? 'block' : 'none',
-          backgroundImage: `url(${item.thumb})`,
-          backgroundSize: 'cover',
-        }}
-       />
-      <Card.Content style={{display: !detailsVisible ? 'block' : 'none'}}>
-        <Card.Header>
-          {item.title}
-        </Card.Header>
-        {/*
-        <Card.Meta>
-          <span className='date'>
-            {item.description}
-          </span>
-        </Card.Meta>
-        */}
-      </Card.Content>
-      <Card.Content extra style={{
-        height: this.state.height,
-        display: detailsVisible ? 'block' : 'none'
-      }}>
-        <Card.Description>
-          {item.description}
-        </Card.Description>
-      </Card.Content>
-    </Card>
-    )
-  }
-}
 
 
 class App extends Component {
@@ -72,24 +21,25 @@ class App extends Component {
     if (items.length > 0) {
       return
     }
-    fetch(_URL, {
-      // method: 'GET',
-      // headers: JSON_HEADER,
-    })
-    .then(
-      response => {
-        if (response.status === 200) {
-          return response.json()
-        }
-        throw new Error(`==> Something went wrong: [${response.status}] ${response.statusText}`)
-      }
-    ).then(
-      data => {
-        // console.log('ajax success:', data)
-        this.setState({items: data})
-      },
-      error => catchError(error.message || 'Something went wrong')
-    )
+    this.setState({items: JSON});
+    // fetch(_URL, {
+    //   // method: 'GET',
+    //   // headers: JSON_HEADER,
+    // })
+    // .then(
+    //   response => {
+    //     if (response.status === 200) {
+    //       return response.json()
+    //     }
+    //     throw new Error(`==> Something went wrong: [${response.status}] ${response.statusText}`)
+    //   }
+    // ).then(
+    //   data => {
+    //     // console.log('ajax success:', data)
+    //     this.setState({items: data})
+    //   },
+    //   error => catchError(error.message || 'Something went wrong')
+    // )
   }
   render() {
     const { items = [] } = this.state || {}
