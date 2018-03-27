@@ -23,7 +23,7 @@ class ItemCard extends Component {
     this.setState({height: this.cardElement.clientHeight})
   }
   render = () => {
-    const { item } = this.props
+    const { item, index } = this.props
     // console.log('item', item)
     return (
     <Card centered={true} ref={cardElement => this.cardElement = cardElement} fluid={true} raised={false}>
@@ -40,7 +40,12 @@ class ItemCard extends Component {
                 backgroundImage: `url(${item.thumb})`,
                 backgroundSize: 'cover',
                 backgroundPosition: '50% 50%',
-          }} />
+          }}
+            label={{ as: 'a', content: index, ribbon: true, size: 'mini' }}
+          />
+          {/*
+          <Label color='yellow' style={{position: 'absolute', top: '10px', left: '10px', cursor: 'default'}}>{index}</Label>
+          */}
         </Reveal.Content>
         <Reveal.Content hidden style={{fontSize: '1.2em', padding: '1em', color: 'black', width: '100%'}}>
           {item.description}

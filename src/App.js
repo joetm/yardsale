@@ -67,7 +67,7 @@ class App extends Component {
           {
             items.map((item, index) => (
               <Grid.Column className="col" key={`item_${index}`}>
-                  <ItemCard item={item} />
+                  <ItemCard item={item} index={index+1} />
               </Grid.Column>
             ))
           }
