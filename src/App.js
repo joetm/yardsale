@@ -53,11 +53,10 @@ class App extends Component {
         </header>
 
         <Container className="App-intro">
-            The following items are for sale.
+            The following items are for sale. Please contact me if you are interested.
             {/*
             All items are in great condition and as good as new.
             */}
-            Please contact me if you are interested.
         </Container>
 
         <Loader hidden={items && items.length} />
