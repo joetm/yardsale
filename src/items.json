@@ -67,7 +67,8 @@
     "asking_price": "1.5 0xEUR each",
     "purchase_price": "?",
     "url": null,
-    "condition": ""
+    "condition": "",
+    "notforsale": true
   },
   {
     "title": "Swiss army water bladder, rubber, 20 litres",
@@ -139,7 +140,8 @@
     "asking_price": "6 EUR each",
     "purchase_price": "?",
     "url": null,
-    "condition": "Used"
+    "condition": "Used",
+    "notforsale": true
   },
   {
     "title": "PocketBands - The Wristband With a Hidden Pocket [Kickstarter]",
@@ -149,7 +151,8 @@
     "asking_price": "1.50 EUR",
     "purchase_price": "15 USD",
     "url": "https://www.kickstarter.com/projects/pocketbands/pocketbandstm-the-wristband-with-a-hidden-pocket",
-    "condition": "Used once"
+    "condition": "Used once",
+    "notforsale": true
   },
   {
     "title": "Jack Wolfskin Waschsalon Kulturbeutel",
