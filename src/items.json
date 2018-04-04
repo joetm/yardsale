@@ -87,7 +87,8 @@
     "asking_price": "5.00 EUR",
     "purchase_price": "21.95 EUR",
     "url": "https://www.amazon.de/gp/product/B00QAP6BMA/",
-    "condition": "Used only once."
+    "condition": "Used only once.",
+    "sold": true
   },
   {
     "title": "Podo Stick and Shoot camera [Kickstarter]",

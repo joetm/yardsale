@@ -64,11 +64,16 @@ class App extends Component {
         <Grid container={true} columns={2} stackable divided>
           <Grid.Row className="row">
           {
-            items.map((item, index) => (
-              <Grid.Column className="col" key={`item_${index}`}>
-                  <ItemCard item={item} index={index+1} />
-              </Grid.Column>
-            ))
+            items.map((item, index) => {
+            	if (item.sold === undefined) {
+	            	return (
+		              <Grid.Column className="col" key={`item_${index}`}>
+		                  <ItemCard item={item} index={index+1} />
+		              </Grid.Column>
+	            	)
+            	}
+        		return null
+            })
           }
           </Grid.Row>
         </Grid>
