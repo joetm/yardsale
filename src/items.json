@@ -44,7 +44,7 @@
     "description": "These are two good and sturdy tripods for serious photography. The tripods are air-cushioned. That means the camera or flash units will not be damaged in case you make a mistake. The height is around 2.5 meters. I am selling them with some basic accessories: several spigot heads, a spigot thread adapter and a few screws with imperial system threading.",
     "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/2018-03-25%2021.24.05.jpg",
     "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/2018-03-25%2021.24.05.jpg",
-    "asking_price": "15 EUR each",
+    "asking_price": "10 EUR each",
     "purchase_price": "?",
     "url": null,
     "condition": ""
@@ -77,7 +77,8 @@
     "asking_price": "5 EUR",
     "purchase_price": "?",
     "url": null,
-    "condition": "Only tried it out once. Always stored in a warm and dry place."
+    "condition": "Only tried it out once. Always stored in a warm and dry place.",
+    "unavailable": true
   },
   {
     "title": "Savisto Premium Solid Granite Pestle And Mortar - Large 15.5cm Diameter",
@@ -88,7 +89,7 @@
     "purchase_price": "21.95 EUR",
     "url": "https://www.amazon.de/gp/product/B00QAP6BMA/",
     "condition": "Used only once.",
-    "sold": true
+    "unavailable": true
   },
   {
     "title": "Podo Stick and Shoot camera [Kickstarter]",
@@ -198,7 +199,8 @@
     "asking_price": "9 EUR",
     "purchase_price": "?",
     "url": null,
-    "condition": "As good as new (never used)"
+    "condition": "As good as new (never used)",
+    "unavailable": true
   },
   {
     "title": "Bordo wallet - Small Leather Wallet with RFID Protection [Kickstarter]",

@@ -65,7 +65,7 @@ class App extends Component {
           <Grid.Row className="row">
           {
             items.map((item, index) => {
-            	if (item.sold === undefined) {
+            	if (item.sold === undefined && item.unavailable === undefined) {
 	            	return (
 		              <Grid.Column className="col" key={`item_${index}`}>
 		                  <ItemCard item={item} index={index+1} />
