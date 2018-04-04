@@ -230,7 +230,8 @@
     "asking_price": "2 EUR",
     "purchase_price": "?",
     "url": null,
-    "condition": "Never used"
+    "condition": "Never used",
+    "notforsale": true
   },
   {
     "title": "LG Flatscreen Monitor",
