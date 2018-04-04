@@ -240,7 +240,8 @@
     "asking_price": "5 EUR",
     "purchase_price": "?",
     "url": null,
-    "condition": "A bit dusty, but otherwise okay"
+    "condition": "A bit dusty, but otherwise okay",
+    "unavailable": true
   }
 
 ]
