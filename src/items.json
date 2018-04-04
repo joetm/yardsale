@@ -4,7 +4,7 @@
     "description": "I am very satisfied with this fridge and I would buy the exact same model again. The freezing compartment is quite big. There practically no ice building up in the freezer at all. That means it is well-sealed and insulated.",
     "image": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/aeg-fridge.jpg",
     "thumb": "https://raw.githubusercontent.com/joetm/yardsale/master/public/img/thumbs/aeg-fridge.jpg",
-    "asking_price": "150 EUR",
+    "asking_price": "120 EUR",
     "purchase_price": "305.48 EUR",
     "url": "https://www.amazon.de/gp/product/B009F0JFD4/",
     "condition": "As good as new from Amazon."
@@ -182,7 +182,8 @@
     "asking_price": "2.50 EUR",
     "purchase_price": "?",
     "url": null,
-    "condition": "Never used"
+    "condition": "Never used",
+    "notforsale": true
   },
   {
     "title": "Bixi gesture control device [Kickstarter]",
